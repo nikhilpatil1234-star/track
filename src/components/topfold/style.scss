@@ -1,0 +1,73 @@
+.top-fold-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1%;
+  border-radius: 10px;
+  background-color: #d8cece;
+  .top-fold-search-add-container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+
+    .top-folds-search-bar {
+      border: 2px solid #d8cece;
+      border-radius: 8px;
+      input {
+        border: none;
+        height: 50px;
+        width: 300px;
+      }
+      input::-webkit-input-placeholder {
+        color: rgb(131, 135, 135);
+        padding-left: 30%;
+        padding: 30px;
+        font-size: 20px;
+        background-color: #d8cece;
+      }
+      input:focus {
+        outline: none;
+        color: black;
+        font-size: 20px;
+        background-color: #d8cece;
+      }
+    }
+    .top-fold-add-btn {
+      border: 1px solid white;
+      border-radius: 8px;
+      padding: 0px 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      label {
+        color: black;
+        padding: 1%;
+        font-size: 20px;
+      }
+    }
+  }
+  .top-folds-back-conatainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    .top-folds-back-btn {
+      border: 1px solid white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5%;
+      // font-size: 20px;
+    }
+    .top-fold-cancle-btn {
+      border: 1px solid white;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5%;
+      // font-size: 20px;
+    }
+  }
+}

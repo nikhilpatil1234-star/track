@@ -1,0 +1,30 @@
+.form-container {
+  width: 80%;
+  min-height: 60vh;
+  border-radius: 18px;
+  background: #c2c2c2;
+  box-shadow: inset 35px -35px 70px #9f9f9f, inset -35px 35px 70px #e5e5e5;
+  padding: 1%;
+  label {
+    font-size: 25px;
+    display: flex;
+    padding: 1%;
+  }
+  .category-containing-parent {
+    .categary {
+      .categary-dropdown {
+        label {
+          color: rgb(250, 249, 255);
+        }
+      }
+    }
+  }
+  .add-btn {
+    border: 1px solid rgb(251, 242, 242);
+    border-radius: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
